@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Secondary" will return to screen it was before
+         "id" will set the destination off the item click -->
+
+    <item
+        android:title="Settings"
+        app:showAsAction="never"
+        android:menuCategory="secondary"
+        android:id="@+id/settingsFragment" />
+
+    <item
+        android:title="Terms and conditions"
+        app:showAsAction="never"
+        android:id="@+id/conditionsFragment"/>
+
+</menu>
